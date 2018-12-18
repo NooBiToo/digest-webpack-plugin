@@ -1,0 +1,18 @@
+{
+  "name": "project-digest-webpack-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Djaler/project-digest-webpack-plugin"
+  },
+  "author": "Kirill Romanov",
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "digest"
+  ],
+  "peerDependencies": {
+    "webpack": "3 || 4"
+  }
+}
