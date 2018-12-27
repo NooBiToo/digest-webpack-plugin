@@ -1,20 +1,11 @@
-<p>
-  <a href="https://www.npmjs.com/package/project-digest-webpack-plugin">
-      <img src="https://img.shields.io/npm/v/project-digest-webpack-plugin.svg" alt="Version">
-    </a>
-  <a href="https://www.npmjs.com/package/project-digest-webpack-plugin">
-    <img src="https://img.shields.io/npm/l/project-digest-webpack-plugin.svg" alt="License">
-  </a>
-</p>
-
-# Project Digest Webpack Plugin
+# Digest Webpack Plugin fork from https://github.com/Djaler/project-digest-webpack-plugin
 
 Webpack plugin to generate file with digest of all project assets.
 
 ## Install
 
 ```bash
-npm install --save-dev project-digest-webpack-plugin
+npm install --save-dev digest-webpack-plugin
 ```
 
 ## Usage
@@ -22,7 +13,7 @@ npm install --save-dev project-digest-webpack-plugin
 In your webpack configuration:
 
 ```javascript
-const ProjectDigestPlugin = require('project-digest-webpack-plugin');
+const ProjectDigestPlugin = require('digest-webpack-plugin');
 
 module.exports = {
   // ...

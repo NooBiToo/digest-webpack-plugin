@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 
-class ProjectDigestPlugin {
+class DigestPlugin {
     /**
      * @param {string} output - The output file path
      * @param {object} [options] - Options to configure this plugin
@@ -35,11 +35,11 @@ class ProjectDigestPlugin {
         };
 
         if (compiler.hooks) { // webpack 4
-            compiler.hooks.emit.tapAsync('ProjectDigestPlugin', emit)
+            compiler.hooks.emit.tapAsync('DigestPlugin', emit)
         } else { // webpack 3
             compiler.plugin('emit', emit);
         }
     }
 }
 
-module.exports = ProjectDigestPlugin;
+module.exports = DigestPlugin;
